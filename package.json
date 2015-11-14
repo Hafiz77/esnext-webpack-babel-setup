@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/nmrony/esnext-webpack-babel-setup/issues"
   },
-  "homepage": "https://github.com/nmrony/esnext-webpack-babel-setup#readme"
+  "homepage": "https://github.com/nmrony/esnext-webpack-babel-setup#readme",
+  "devDependencies": {
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.1.0",
+    "webpack": "^1.12.5"
+  }
 }

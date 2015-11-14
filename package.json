@@ -29,6 +29,8 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.1.19",
-    "babel-runtime": "^6.1.18"
+    "babel-runtime": "^6.1.18",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
   }
 }

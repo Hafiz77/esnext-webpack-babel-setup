@@ -8,15 +8,16 @@ module.exports = {
     'webpack-dev-server/client?http://localhost:8080'
   ],
   output: {
-      publicPath: '/build',
-      filename: 'app.js'
+    path: __dirname + '/build',
+    publicPath: '/build',
+    filename: 'bundle.js'
   },
   debug: true,
   devtool: 'source-map',
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         include: path.join(__dirname, 'src'),
         loader: 'babel-loader',
         query: {
@@ -27,7 +28,7 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: "./src",
+    contentBase: "./",
     hot: true
   }
 };

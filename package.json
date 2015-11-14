@@ -1,0 +1,19 @@
+{
+  "name": "esnext-webpack-babel-setup",
+  "version": "1.0.0",
+  "description": "Basic Ready to go setup of ES2016 (2015) with Webpack and Babel 6 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmrony/esnext-webpack-babel-setup.git"
+  },
+  "author": "Nur Rony <pro.nmrony@gmail.com> (https://nurmrony.wordpress.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmrony/esnext-webpack-babel-setup/issues"
+  },
+  "homepage": "https://github.com/nmrony/esnext-webpack-babel-setup#readme"
+}
